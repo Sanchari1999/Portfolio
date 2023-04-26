@@ -85,7 +85,10 @@ button a {
     margin-bottom: 20px;
 }
 
-.projects {
+
+
+
+/* .projects {
     background-color: #e9d8a6;
     color: #023047;
     padding: 50px;
@@ -140,6 +143,75 @@ button a {
 .card-text p {
     margin-bottom: 0;
     font-size: 0.9em;
+}
+ */
+
+.projects {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icons img {
+  margin-right: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  margin-bottom: 40px;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-text h2 {
+  margin-bottom: 10px;
+}
+
+.card-text ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.card-text ul li {
+  margin-bottom: 10px;
+}
+
+.card-text a {
+  display: block;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.card-text a:hover {
+  background-color: #3e8e41;
 }
 
 
